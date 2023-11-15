@@ -12,6 +12,12 @@ import growTogether from "./illustration-grow-together.svg";
 import bgFooterDesktop from "./bg-footer-top-desktop.svg";
 import phoneIcon from "./icon-phone.svg";
 import emailIcon from "./icon-email.svg";
+import flowingConversation from "./illustration-flowing-conversation.svg";
+import yourUsers from "./illustration-your-users.svg";
+import mobileSection2Topbg from "./bg-section-top-mobile-2.svg";
+import mobileSection2bottombg from "./bg-section-bottom-mobile-2.svg";
+import desktopSection2Topbg from "./bg-section-top-desktop-2.svg";
+import desktopSection2Bottombg from "./bg-section-bottom-desktop-2.svg";
 
 export {
     mobileFooterTopPattern, 
@@ -28,4 +34,10 @@ export {
     bgFooterDesktop,
     phoneIcon,
     emailIcon,
+    flowingConversation,
+    yourUsers,
+    desktopSection2Bottombg,
+    desktopSection2Topbg,
+    mobileSection2bottombg,
+    mobileSection2Topbg,
 };
