@@ -10,6 +10,8 @@ import mobileBottomSection from "./bg-section-bottom-mobile-1.svg";
 import desktopBottomSection from "./bg-section-bottom-desktop-1.svg";
 import growTogether from "./illustration-grow-together.svg";
 import bgFooterDesktop from "./bg-footer-top-desktop.svg";
+import phoneIcon from "./icon-phone.svg";
+import emailIcon from "./icon-email.svg";
 
 export {
     mobileFooterTopPattern, 
@@ -24,4 +26,6 @@ export {
     desktopBottomSection,
     growTogether,
     bgFooterDesktop,
+    phoneIcon,
+    emailIcon,
 };
