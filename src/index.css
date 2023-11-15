@@ -54,3 +54,8 @@ h1 {
   font-family: 'Open Sans',sans-serif;
   font-size: 1.25rem;
  }
+
+ .stats__message {
+  color: hsl(210, 7%, 28%);
+  font-weight: 400;
+ }
