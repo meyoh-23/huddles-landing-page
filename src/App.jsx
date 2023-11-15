@@ -1,13 +1,21 @@
 
+import {CallToAction, Hero, Services, Stats, Footer} from './components';
+
 function App() {
 
   return (
     <>
-      <p className='mx-10 bg-secondary'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eligendi laborum porro obcaecati tempora, quaerat aliquam ea sequi totam ut dignissimos et consequuntur, omnis libero eum voluptatem asperiores in at.
-      </p>
+      <div className="overflow-hidden w-full lg:max-w-1400px">
+        <div className="my-6">
+          <Hero/>
+          <Stats/>
+          {/* <Services/> */}
+          {/* <CallToAction/> */}
+          {/* <Footer/> */}
+        </div>
+      </div>
     </>
   )
 }
 
-export default App
+export default App;

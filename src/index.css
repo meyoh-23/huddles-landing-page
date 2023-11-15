@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,18 +8,49 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  --primry__text__color: hsl(192, 100%, 9%);
+  --secondary__text__color: sl(207, 100%, 98%);
 }
 
+.primary__button {
+  padding: 0.5rem 0.75rem;
+  color: hsl(322, 100%, 66%);
+  background: transparent;
+  border: 3px solid hsl(322, 100%, 66%);
+  border-radius: 3rem;
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
 
+.primary__button:hover {
+  color: hsl(321, 100%, 78%);
+}
 
+.main__button {
+  padding: 1rem 1.25rem;
+  color: #fff;
+  background: hsl(322, 100%, 66%);
+  border: 3px solid hsl(322, 100%, 66%);
+  border-radius: 3rem;
+  text-transform: capitalize;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
 
+.main__button:hover {
+  color: hsl(321, 100%, 78%);
+}
+
+h1 {
+  color: var(--primry__text__color);
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+ p { 
+  color: var(--primry__text__color);
+  font-weight: 600;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 1.25rem;
+ }
