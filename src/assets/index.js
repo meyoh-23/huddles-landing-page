@@ -18,6 +18,7 @@ import mobileSection2Topbg from "./bg-section-top-mobile-2.svg";
 import mobileSection2bottombg from "./bg-section-bottom-mobile-2.svg";
 import desktopSection2Topbg from "./bg-section-top-desktop-2.svg";
 import desktopSection2Bottombg from "./bg-section-bottom-desktop-2.svg";
+import whiteLogo from "./logo-white.svg";
 
 export {
     mobileFooterTopPattern, 
@@ -40,4 +41,5 @@ export {
     desktopSection2Topbg,
     mobileSection2bottombg,
     mobileSection2Topbg,
+    whiteLogo,
 };

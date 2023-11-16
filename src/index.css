@@ -9,7 +9,7 @@
   line-height: 1.5;
   font-weight: 400;
   --primry__text__color: hsl(192, 100%, 9%);
-  --secondary__text__color: sl(207, 100%, 98%);
+  --secondary__text__color: hsl(207, 100%, 98%);
 }
 
 .primary__button {
@@ -59,3 +59,37 @@ h1 {
   color: hsl(210, 7%, 28%);
   font-weight: 400;
  }
+
+.submit__button {
+  background-color: hsl(322, 100%, 66%);
+  border: 2px solid hsl(322, 100%, 66%);
+  padding: 0.5rem;
+  border-radius: 12px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+input {
+  height: 2rem;
+  border-radius: 5px;
+}
+
+
+
+.formInput {
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  font-size: 12px;
+  padding: 3px;
+  color: red;
+  display: none;
+}
+
+input:invalid[focused="true"] ~ h3 {
+  display: block;
+}
