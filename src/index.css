@@ -12,6 +12,10 @@
   --secondary__text__color: hsl(207, 100%, 98%);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .primary__button {
   padding: 0.5rem 0.75rem;
   color: hsl(322, 100%, 66%);
